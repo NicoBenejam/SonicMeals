@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sonic Meals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>   
+    <div class="container">
+        <p class="logo">SONIC MEALS</p>
+        <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Galeria">Galeria</a>
+            <a href="#Restaurantes">Restaurantes</a>
+            <a href="#Reservas">Reservas</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+    </div>
+</header> 
+<section id="Inicio"></section>
+<section class="hero">
+    <h1>VIVE UNA EXPERIENCIA<br>DE SABORES ÚNICOS</h1>
+        <a href="http://127.0.0.1:5500/index.html#Reservas">
+            <button type="button">RESERVA YA</button>
+        </a>
+</section>
+<section class="info">
+    <h2>¿Por qué elegir Sonic MEALS?</h2>
+    <p>En Sonic MEALS, ofrecemos una experiencia gastronómica única que combina sabores auténticos y un ambiente acogedor. Nuestro menú está diseñado para satisfacer todos los paladares, desde los amantes de la comida rápida hasta los que buscan opciones más saludables.</p>
+</section>
+<div id="somos-SONIC">
+    <div class="container"></div>
+        <div class="img-container">
+        <img src="SonicMeals1.png" alt="Sonic Meals"></div>
+        <h2>SOMOS SONIC MEALS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad, voluptates sit aut necessitatibus provident aliquam labore quidem, aspernatur culpa dolorem neque quibusdam accusamus. Mollitia quibusdam error expedita totam nihil.</p>
+    </div>
+
+<section id="Menu">
+    <h1>ESTE ES NUESTRO MENU</h1>
+    <div class="container">
+        <div class="card">
+            <img src="SonicMeals2.jpg" alt="MENU">
+            
+</section>
+<section id="Galeria">
+    <h1>GALERIA</h1>
+    <div class="container">
+        <div class="card">
+            <img src="SonicMeals3.jpg" alt="IMAGEN 1">
+            <p>Hamburguesa<br> Carne de vacuno, Tomate, Lechuga, Queso cheddar y Salsa especial
+            </p>
+        </div>
+        <div class="card">
+            <img src="SonicMeals4.jpg" alt="IMAGEN 2">
+            <p>Pizza<br> Masa fina, Salsa de tomate, Queso mozzarella y Albahaca fresca
+            </p>
+        </div>
+        <div class="card">
+            <img src="SonicMeals5.jpg" alt="IMAGEN 3">
+            <p>Calamares<br> Rebozados y fritos, servidos con limon
+            </p>
+        </div>
+        <div class="card">
+            <img src="SonicMeals6.jpg" alt="IMAGEN 4">
+            <p>Embutidos<br> Queso, Jamon, Fuet, Longaniza, Aceitunas y Chorizo</p>
+        </div>
+    </div>
+</section>
+<section id="Restaurantes">
+    <h1>NUESTROS RESTAURANTES</h1>
+    <div class="container">
+        <div class="card">
+            <img src="SonicMeals7.jpg" alt="RESTAURANTE 1">
+            <p>SONIC MEALS - Centro</p>
+            <p>Dirección: Calle Mayor, 123, Ciudad</p>
+            <p>Teléfono: +34 123 456 789</p>
+        </div>
+        <div class="card">
+            <img src="SonicMeals8.png" alt="RESTAURANTE 2">
+            <p>SONIC MEALS - Norte</p>
+            <p>Dirección: Avenida del Norte, 456, Ciudad</p>
+            <p>Teléfono: +34 987 654 321</p>
+        </div>
+        <div class="card">
+            <img src="SonicMeals9.png" alt="RESTAURANTE 3">
+            <p>SONIC MEALS - Sur</p>
+            <p>Dirección: Plaza del Sur, 789, Ciudad</p>
+            <p>Teléfono: +34 555 666 777</p>
+        </div>
+    </div>
+</section>
+<section id="Reservas">
+    <h1>RESERVAS</h1>
+    <div class="container">
+        <form action="#">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Número de personas:</label>
+            <input type="number" id="guests" name="guests" min="1" max="20" required>
+                <br>
+            <label for="restaurant">Restaurante:</label>
+            <select id="restaurant" name="restaurant" required>
+                <option value="centro">SONIC MEALS - Centro</option>
+                <option value="norte">SONIC MEALS - Norte</option>
+                <option value="sur">SONIC MEALS - Sur</option>
+            </select>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+</section>
+<section id="Contacto">
+    <h1>CONTACTO</h1>
+    <div class="container">
+        <form action="#">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2025 SONIC MEALS. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

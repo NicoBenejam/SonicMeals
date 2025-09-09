@@ -1,0 +1,134 @@
+button {
+    background-color: #0004ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px auto;
+    height: auto;
+    display: block;
+}
+button:hover {
+    background-color: #03055e;
+}
+header {
+    background-color: #F4EFF1;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    display: block;
+    border-bottom: 2px solid #0004ff;
+    margin-bottom: 20px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+header nav {
+    float: right;
+}
+header nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    display: inline-block;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+body {
+    background-color: #F4EFF1;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    
+}
+#Inicio {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    
+}
+#Menu {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+}
+#somos-SONIC {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+
+}
+#Galeria p {
+  text-align: center;
+}
+#Restaurante {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+
+}
+#Contacto {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+
+}
+#Restaurantes p {
+  text-align: center;
+}
+#Contacto p {
+  text-align: center;
+}
+#Galeria {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+
+}
+#Reservas {
+    background-color: #F4EFF1;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-bottom: 2px solid #0004ff;
+    text-align: center;
+
+}
