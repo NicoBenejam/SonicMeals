@@ -27,6 +27,10 @@ header {
     height: auto;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position : fixed;
+    top : 0;
+    width : 100%;
+    z-index : 1000;
 }
 header .logo {
     font-size: 24px;
@@ -132,3 +136,4 @@ body {
     text-align: center;
 
 }
+
