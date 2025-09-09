@@ -28,7 +28,7 @@ header {
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position : fixed;
-    top : 0;
+    top : 0; left : 0;
     width : 100%;
     z-index : 1000;
 }
@@ -136,4 +136,5 @@ body {
     text-align: center;
 
 }
+
 
